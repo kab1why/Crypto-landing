@@ -1,0 +1,669 @@
+/* ==== main ==== */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: rgb(18, 19, 42);
+}
+
+/* ==== header ==== */
+
+header {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  height: 70px;
+  margin-bottom: 100px;
+}
+
+header .logo-part {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+header .logo-part img {
+  margin-right: 6px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header .nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .nav-links a:last-child {
+  margin-right: 100px;
+}
+
+header .nav-links button {
+  padding: 8px 24px;
+  border: 1px solid white;
+  background-color: rgb(18, 19, 42);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+header .nav-links a {
+  margin-right: 50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #767799;
+}
+
+/* ==== main-banner ==== */
+
+.main-banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.main-banner .left-part .title {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  text-transform: lowercase;
+  color: #ffffff;
+}
+
+.main-banner .left-part .desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 168.5%;
+  color: #767799;
+  margin: 35px 0 0 0;
+}
+
+.main-banner .left-part .btn-part {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-banner .left-part .btn-part .explore-btn {
+  color: white;
+  border: 1px solid white;
+  background-color: rgb(18, 19, 42);
+  padding: 10px 23px;
+}
+
+.main-banner .left-part .btn-part .num-btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 168.5%;
+  color: #ffffff;
+}
+
+.main-banner .left-part .btn-part .num-btn i {
+  color: #6d6f92;
+}
+
+/* ==== collaborators ==== */
+
+.collaborators {
+  width: 100%;
+  background-color: #162446;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+/* ==== portfolio make ==== */
+
+.portfolio-make {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-make .title {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 104.5%;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.portfolio-make .desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 168.5%;
+  text-align: center;
+  color: #767799;
+}
+
+.portfolio-make .cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.portfolio-make .cards .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  border: 1px solid purple;
+  border-radius: 8px;
+  height: 430px;
+  width: 50%;
+  margin-right: 100px;
+}
+
+.portfolio-make .cards .card .title {
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 104.5%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.portfolio-make .cards .card .desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 168.5%;
+  text-align: center;
+  color: grey;
+}
+
+.portfolio-make .cards .card i {
+  color: white;
+  size: 40px;
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+
+/* ==== feature-part ===== */
+
+.feature-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.feature-banner .img {
+  width: 100%;
+}
+
+/* ==== invite-part ==== */
+
+.invite-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0;
+}
+
+.invite-part .left .title {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 104.5%;
+  color: #ffffff;
+  width: 50%;
+}
+
+.invite-part .left .desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 168.5%;
+  color: #767799;
+  margin: 50px 0;
+}
+
+.invite-part .left button {
+  background: none;
+  color: white;
+  border: 1px white solid;
+  padding: 15px 33px;
+  font-size: 20px;
+}
+
+/* ==== user-step ==== */
+
+.user-step {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.user-step .table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.user-step .title {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.user-step .desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #767799;
+  margin: 50px 0;
+}
+
+.user-step .table .support-part,
+.user-step .table .sales-part,
+.user-step .table .onboarding-part,
+.user-step .table .product-part,
+.user-step .table .quality-part,
+.user-step .table .result-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-step .table .support-part .title,
+.user-step .table .sales-part .title,
+.user-step .table .onboarding-part .title,
+.user-step .table .product-part .title,
+.user-step .table .quality-part .title,
+.user-step .table .result-part .title {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.user-step .table .support-part .desc,
+.user-step .table .sales-part .desc,
+.user-step .table .onboarding-part .desc,
+.user-step .table .product-part .desc,
+.user-step .table .quality-part .desc,
+.user-step .table .result-part .desc {
+  margin: 20px 0;
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #767799;
+}
+
+.user-step .table .support-part .icon i,
+.user-step .table .sales-part .icon i,
+.user-step .table .onboarding-part .icon i,
+.user-step .table .product-part .icon i,
+.user-step .table .quality-part .icon i,
+.user-step .table .result-part .icon i {
+  color: white;
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+.user-step .table .support-part {
+  border: 1px #c23893 solid;
+  border-top: none;
+  border-left: none;
+}
+
+.user-step .table .sales-part {
+  border: 1px #c23893 solid;
+  border-left: none;
+  border-top: none;
+}
+
+.user-step .table .onboarding-part {
+  border: 1px #c23893 solid;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+
+.user-step .table .product-part {
+  border: 1px #c23893 solid;
+  border-left: none;
+  border-bottom: none;
+}
+
+.user-step .table .quality-part {
+  border: 1px #c23893 solid;
+  border-left: none;
+  border-bottom: none;
+}
+
+/* ==== tutorial-banner ==== */
+
+.tutorial-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.tutorial-banner .right {
+  margin-left: 90px;
+}
+
+.tutorial-banner .right .mini-title {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 104.5%;
+  text-align: center;
+  color: #962f79;
+}
+
+.tutorial-banner .right .title {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 104.5%;
+  color: #ffffff;
+}
+
+.tutorial-banner .right .desc {
+  margin: 35px 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 168.5%;
+  color: #767799;
+}
+
+.tutorial-banner .right button {
+  background: none;
+  color: white;
+  border: 1px white solid;
+  padding: 15px 33px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* ==== testimonials ==== */
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials .title {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 20px 0;
+}
+
+.testimonials .title p {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 62px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: #ffffff;
+  margin: 0 40px;
+}
+
+.testimonials .desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 168.5%;
+  text-align: center;
+  color: #767799;
+}
+
+.testimonials .cards-part {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 20px;
+}
+
+.testimonials .cards-part .albert {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(img/albert.png);
+  height: 681.82px;
+  width: 379.32px;
+  margin-right: 60px;
+}
+.testimonials .cards-part .leslie {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(img/leslie.png);
+  height: 681.82px;
+  width: 379.32px;
+}
+.testimonials .cards-part .cotney {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(img/cortney.png);
+  height: 681.82px;
+  width: 379.32px;
+}
+
+.testimonials .cards-part .name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21.6069px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.600191px;
+  color: #ffffff;
+}
+
+.testimonials .cards-part .work {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.8053px;
+  line-height: 26px;
+  color: #d4d4d8;
+}
+
+.testimonials .cards-part .text-part {
+  margin: 160% 130px 0 40px;
+}
+
+.testimonials .cards-part button {
+  margin: 160% 0px 0 0;
+  background: none;
+  border: 3px white solid;
+  border-radius: 8px;
+}
+
+.testimonials .cards-part button i {
+  color: white;
+  padding: 10px 10px;
+}
+
+/* ===== about-part ==== */
+
+.about-part {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 188px;
+}
+
+.about-part .mini-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #962f79;
+  margin-bottom: 12px;
+}
+
+.about-part .title {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+.about-part .desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #767799;
+  margin: 24px 0 46px 0;
+}
+
+/* ==== footer ===== */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer .first {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
+footer .first .product-part,
+footer .first .company-part,
+footer .first .resources-part,
+footer .first .social-part,
+footer .first .legal-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .first .product-part {
+  margin-right: 25%;
+}
+
+footer .first .company-part {
+  margin-right: 25%;
+}
+
+footer .first .resources-part {
+  margin-right: 25%;
+}
+
+footer .first .social-part {
+  margin-right: 25%;
+}
+
+footer .first .legal-part {
+  margin-right: 25%;
+}
+
+footer .first .title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #c23893;
+}
+
+footer .first a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #12132a;
+}
